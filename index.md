@@ -4,7 +4,7 @@
 
 Forge Fitness is built on a simple principle: **your data stays on your
 device.** The app has no servers, no accounts, and no analytics. We cannot
-see your data ‚Äî not because we promise not to look, but because it never
+see your data — not because we promise not to look, but because it never
 leaves your phone in the first place.
 
 ## What the app stores, and where
@@ -34,10 +34,10 @@ recorded by your cycle-tracking app.
   never transmitted anywhere.
 - Health data is never used for advertising or marketing, never shared
   with third parties, and never used for any purpose other than showing
-  you your own recovery information ‚Äî as required by Apple's HealthKit
+  you your own recovery information — as required by Apple's HealthKit
   guidelines.
 - You can grant or revoke this permission at any time in the Health app
-  under Sharing ‚Üí Apps ‚Üí Forge Fitness. The app works fully without it;
+  under Sharing → Apps → Forge Fitness. The app works fully without it;
   recovery fields simply show a dash.
 
 ## Cycle tracking
@@ -52,14 +52,14 @@ and we could not produce one if asked, because it does not exist.
 If you choose to connect an Oura Ring, you paste a personal access token
 (created by you on Oura's website) into the app. Then:
 
-- The app talks **directly to Oura's API** ‚Äî and to nothing else ‚Äî to read
+- The app talks **directly to Oura's API** — and to nothing else — to read
   your own nightly sleep summaries (HRV, lowest heart rate, sleep time).
 - The token is stored **in the iOS Keychain on your device** and is sent
-  only to Oura, only to read your data. We never see it ‚Äî the app has no
+  only to Oura, only to read your data. We never see it — the app has no
   servers.
 - Oura's handling of your data is covered by
   [Oura's privacy policy](https://ouraring.com/privacy-policy).
-- Disconnecting (Profile ‚Üí Oura Ring ‚Üí Disconnect) deletes the token from
+- Disconnecting (Profile → Oura Ring → Disconnect) deletes the token from
   your device immediately.
 - If you never connect Oura, the app makes **no network requests at all**.
 
@@ -83,8 +83,8 @@ backups are managed by Apple under your Apple ID and covered by
 no access to them.
 
 If a future version adds optional iCloud sync between your own devices,
-your data would sync through your private iCloud account ‚Äî still never
-visible to us ‚Äî and this policy will be updated to describe it before
+your data would sync through your private iCloud account — still never
+visible to us — and this policy will be updated to describe it before
 that feature ships.
 
 ## Notifications
