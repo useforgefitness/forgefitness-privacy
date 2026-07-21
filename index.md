@@ -24,8 +24,8 @@ deletes this data.
 
 With your permission, Forge Fitness **reads** from Apple Health: heart
 rate variability (HRV), resting heart rate, heart rate samples from your
-sleep, and sleep duration. These appear in the app's recovery card and
-insights. If you choose to use the cycle import (a separate permission,
+sleep, sleep duration, and daily step count. These appear in the app's
+recovery card, rest-day view, and insights. If you choose to use the cycle import (a separate permission,
 asked only when you tap Import), the app also reads menstrual cycle dates
 recorded by your cycle-tracking app.
 
@@ -53,7 +53,8 @@ If you choose to connect an Oura Ring, you paste a personal access token
 (created by you on Oura's website) into the app. Then:
 
 - The app talks **directly to Oura's API** — and to nothing else — to read
-  your own nightly sleep summaries (HRV, lowest heart rate, sleep time).
+  your own nightly sleep summaries (HRV, lowest heart rate, sleep time)
+  and daily step count.
 - The token is stored **in the iOS Keychain on your device** and is sent
   only to Oura, only to read your data. We never see it — the app has no
   servers.
