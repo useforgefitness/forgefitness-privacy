@@ -1,6 +1,6 @@
 # Forge Fitness Privacy Policy
 
-**Effective date: July 16, 2026**
+**Effective date: July 21, 2026**
 
 Forge Fitness is built on a simple principle: **your data stays on your
 device.** The app has no servers, no accounts, and no analytics. We cannot
@@ -83,10 +83,16 @@ backups are managed by Apple under your Apple ID and covered by
 [Apple's privacy policy](https://www.apple.com/legal/privacy/). We have
 no access to them.
 
-If a future version adds optional iCloud sync between your own devices,
-your data would sync through your private iCloud account — still never
-visible to us — and this policy will be updated to describe it before
-that feature ships.
+## iCloud sync
+
+Forge Fitness syncs your data to **your own private iCloud account** so
+it survives a lost or replaced phone. There is no account to create and
+no password: syncing uses the Apple ID already on your device, and the
+data goes into your personal iCloud storage, which Apple encrypts and we
+cannot access. If you are not signed into iCloud, the app simply works
+locally. Your health readings (from Apple Health or Oura) are displayed
+from your device and included in this sync only as part of your recovery
+log; they are never sent anywhere else.
 
 ## Notifications
 
