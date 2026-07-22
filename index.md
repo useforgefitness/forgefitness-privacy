@@ -64,6 +64,18 @@ If you choose to connect an Oura Ring, you paste a personal access token
   your device immediately.
 - If you never connect Oura, the app makes **no network requests at all**.
 
+## Friends leaderboard (optional)
+
+If you choose to join the friends leaderboard, the app publishes a small
+"card" so friends who have your code can see it: the display name you
+pick (it does not need to be your real name), your current streak, your
+weekly totals (sessions, volume, and PR days), your personal records
+from the last week, and the top set of each exercise in your latest
+workout. That is the complete list. Your workouts, exercises, weights, notes, and health readings are
+never part of it. Cards are stored in Apple's iCloud infrastructure for
+this app and are findable only by your six-character friend code, which
+you share yourself. Don't join, and nothing is ever published.
+
 ## What we don't do
 
 - **No accounts.** There is nothing to sign up for and no login.
@@ -72,8 +84,9 @@ If you choose to connect an Oura Ring, you paste a personal access token
 - **No third parties.** No data is shared with, sold to, or processed by
   anyone. (The optional Oura connection above talks only to Oura, at your
   request, about your own data.)
-- **No network activity beyond the optional Oura connection.** Without it,
-  the app makes no network requests.
+- **No network activity beyond the optional Oura connection, iCloud
+  sync, and the optional friends leaderboard.** All three go only to
+  Oura or Apple; there is no server of ours anywhere.
 
 ## Backups and iCloud
 
