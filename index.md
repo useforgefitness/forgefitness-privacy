@@ -71,8 +71,16 @@ If you choose to join the friends leaderboard, the app publishes a small
 pick (it does not need to be your real name), your current streak, your
 weekly totals (sessions, volume, and PR days), your personal records
 from the last week, and the top set of each exercise in your latest
-workout. That is the complete list. Your workouts, exercises, weights, notes, and health readings are
-never part of it. Cards are stored in Apple's iCloud infrastructure for
+workout.
+
+**Optionally — and only if you turn it on** — your card can also carry
+last night's sleep duration, heart-rate variability (HRV), and resting
+heart rate. This sharing is off by default, only friends who have your
+code can see the values, and switching it off removes them from your
+card. Nothing else ever joins the card: your workouts' notes and every
+other health reading stay on your device.
+
+Cards are stored in Apple's iCloud infrastructure for
 this app and are findable only by your six-character friend code, which
 you share yourself. Don't join, and nothing is ever published.
 
