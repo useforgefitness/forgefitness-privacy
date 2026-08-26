@@ -4,7 +4,7 @@
 
 Forge Fitness is built on a simple principle: **your data stays on your
 device.** The app has no servers, no accounts, and no analytics. We cannot
-see your data — not because we promise not to look, but because it never
+see your data. Not because we promise not to look, but because it never
 leaves your phone in the first place.
 
 ## What the app stores, and where
@@ -34,7 +34,7 @@ recorded by your cycle-tracking app.
   never transmitted anywhere.
 - Health data is never used for advertising or marketing, never shared
   with third parties, and never used for any purpose other than showing
-  you your own recovery information — as required by Apple's HealthKit
+  you your own recovery information, as required by Apple's HealthKit
   guidelines.
 - You can grant or revoke this permission at any time in the Health app
   under Sharing → Apps → Forge Fitness. The app works fully without it;
@@ -49,19 +49,26 @@ and we could not produce one if asked, because it does not exist.
 
 ## Oura Ring (optional)
 
-If you choose to connect an Oura Ring, you paste a personal access token
-(created by you on Oura's website) into the app. Then:
+If you choose to connect an Oura Ring, tapping Connect opens **Oura's own
+sign-in in a secure window run by iOS**. You sign in to Oura there and
+approve the connection. Forge Fitness never sees your Oura email or
+password. Then:
 
-- The app talks **directly to Oura's API** — and to nothing else — to read
+- You approve exactly two permissions: your **daily** summaries and your
+  **heart rate**. Nothing else is requested.
+- The app talks **directly to Oura's API**, and to nothing else, to read
   your own nightly sleep summaries (HRV, lowest heart rate, sleep time)
   and daily step count.
-- The token is stored **in the iOS Keychain on your device** and is sent
-  only to Oura, only to read your data. We never see it — the app has no
-  servers.
+- Oura issues a connection token to the app. It is stored **in the iOS
+  Keychain on your device** and is sent only to Oura, only to read your
+  data. We never see it: the app has no servers.
+- The connection lasts about a month, then you reconnect. The app tells
+  you several days beforehand rather than letting your readings quietly
+  stop.
 - Oura's handling of your data is covered by
   [Oura's privacy policy](https://ouraring.com/privacy-policy).
-- Disconnecting (Profile → Oura Ring → Disconnect) deletes the token from
-  your device immediately.
+- Disconnecting (Profile, Connect Fitness Tracker, Oura Ring, Disconnect)
+  deletes the connection from your device immediately.
 - If you never connect Oura, the app makes **no network requests at all**.
 
 ## Friends leaderboard (optional)
@@ -70,10 +77,10 @@ If you choose to join the friends leaderboard, the app publishes a small
 "card" so friends who have your code can see it: the display name you
 pick (it does not need to be your real name), your current streak, your
 weekly totals (sessions, volume, and PR days), your personal records
-from the last week, and the top set of each exercise in your latest
-workout.
+from the last week, your all-time heaviest sets, and the top set of each
+exercise in your last few workouts.
 
-**Optionally — and only if you turn it on** — your card can also carry
+**Optionally, and only if you turn it on,** your card can also carry
 last night's sleep duration, heart-rate variability (HRV), and resting
 heart rate. This sharing is off by default, only friends who have your
 code can see the values, and switching it off removes them from your
