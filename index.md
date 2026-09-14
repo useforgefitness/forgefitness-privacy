@@ -1,6 +1,6 @@
 # Forge Fitness Privacy Policy
 
-**Effective date: July 21, 2026**
+**Effective date: September 13, 2026**
 
 Forge Fitness is built on a simple principle: **your data stays on your
 device.** The app has no servers, no accounts, and no analytics. We cannot
@@ -71,6 +71,31 @@ password. Then:
   deletes the connection from your device immediately.
 - If you never connect Oura, the app makes **no network requests at all**.
 
+## WHOOP (optional)
+
+If you choose to connect a WHOOP, tapping Connect opens **WHOOP's own
+sign-in in a secure window run by iOS**, exactly like Oura. Forge Fitness
+never sees your WHOOP email or password. Then:
+
+- You approve three read permissions: your **recovery** (HRV, resting
+  heart rate), your **sleep**, and your **daily cycles**. Nothing else is
+  requested, and the app reads only your own most recent night.
+- WHOOP requires that the key which turns your sign-in into a connection
+  is kept off phones. So Forge Fitness runs **one small relay** (a
+  Cloudflare Worker) that does that single job: it passes your one-time
+  sign-in code to WHOOP and hands WHOOP's connection token back to your
+  phone. **The relay stores nothing and logs nothing.** It never sees a
+  reading; your recovery and sleep data travel **directly from WHOOP to
+  your phone**.
+- The connection token is stored **in the iOS Keychain on your device**
+  and is sent only to WHOOP, only to read your data. When it expires the
+  app renews it through the same relay, which again keeps nothing.
+- WHOOP's handling of your data is covered by
+  [WHOOP's privacy policy](https://www.whoop.com/privacy/).
+- Disconnecting (Profile, Connect Fitness Tracker, WHOOP, Disconnect)
+  deletes the connection from your device immediately.
+- If you never connect WHOOP, the relay is never contacted.
+
 ## Friends leaderboard (optional)
 
 If you choose to join the friends leaderboard, the app publishes a small
@@ -97,11 +122,13 @@ you share yourself. Don't join, and nothing is ever published.
 - **No analytics or tracking.** The app contains no analytics SDKs, no
   advertising identifiers, and no tracking of any kind.
 - **No third parties.** No data is shared with, sold to, or processed by
-  anyone. (The optional Oura connection above talks only to Oura, at your
-  request, about your own data.)
-- **No network activity beyond the optional Oura connection, iCloud
-  sync, and the optional friends leaderboard.** All three go only to
-  Oura or Apple; there is no server of ours anywhere.
+  anyone. (The optional Oura and WHOOP connections above talk only to
+  Oura or WHOOP, at your request, about your own data.)
+- **No network activity beyond the optional Oura and WHOOP connections,
+  iCloud sync, and the optional friends leaderboard.** Readings go only
+  to your phone from Oura, WHOOP or Apple. The one piece of ours on the
+  internet is the WHOOP sign-in relay described above, which holds no
+  data.
 
 ## Backups and iCloud
 
