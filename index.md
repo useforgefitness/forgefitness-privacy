@@ -148,6 +148,17 @@ measurements, cycle log, progress photos, medication context,
 nutrition targets, or who your friends are. Don't share, and nothing
 is ever written.
 
+## Food photos (optional)
+
+If you choose to log a meal from a photo, the photo is sent once, through
+the same relay the coach uses, to the service that estimates what is on
+the plate, and is not stored by us or by that service. What comes back
+is an estimate of the foods, calories, protein, carbohydrates and fat,
+which you can change before saving. Only the numbers you save are kept,
+on your device and in your own iCloud with the rest of your log. Food
+data is never shared with friends or with a coach. Don't use the
+feature, and no photo is ever sent.
+
 ## Friends leaderboard (optional)
 
 If you choose to join the friends leaderboard, the app publishes a small
@@ -158,10 +169,13 @@ from the last week, your all-time heaviest sets, and the top set of each
 exercise in your last few workouts.
 
 **Optionally, and only if you turn it on,** your card can also carry
-last night's sleep duration, heart-rate variability (HRV), and resting
-heart rate. This sharing is off by default, only friends who have your
-code can see the values, and switching it off removes them from your
-card. Nothing else ever joins the card: your workouts' notes and every
+last night's sleep duration, heart-rate variability (HRV), resting
+heart rate, breathing rate, and the recovery status Forge gave you,
+each one its own switch. This sharing is off by default, only friends
+who have your code can see the values, and switching any of it off
+removes it from your card. Your workouts travel as each exercise's top
+set; every set and your effort ratings travel only if you turn those
+on. Nothing else ever joins the card: your notes, your food, and every
 other health reading stay on your device.
 
 Cards are stored in Apple's iCloud infrastructure for
