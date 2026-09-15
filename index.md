@@ -1,6 +1,6 @@
 # Forge Fitness Privacy Policy
 
-**Effective date: September 13, 2026**
+**Effective date: September 15, 2026**
 
 Forge Fitness is built on a simple principle: **your data stays on your
 device.** The app has no servers, no accounts, and no analytics. We cannot
@@ -96,6 +96,58 @@ never sees your WHOOP email or password. Then:
   deletes the connection from your device immediately.
 - If you never connect WHOOP, the relay is never contacted.
 
+## The coach (optional)
+
+Forge has a coach you can ask about your training. It is off until you
+open it and read a short screen saying what it sends. When you send a
+message:
+
+- **What goes up:** your message, and a short summary in words of your
+  program, your recent sessions (dates, exercises, sets and weights), and
+  today's recovery band with Forge's own reasoning for it. If the coach
+  looks something up, only what that lookup returns goes with it (for
+  example, one exercise's last few sessions).
+- **What never goes up:** your heart-rate, HRV or sleep readings, sleep
+  stages, body weight or measurements, cycle data, medication, photos,
+  friends or friend codes, or anything about your device beyond a random
+  id (below).
+- **Where it goes:** to Forge's relay (a Cloudflare Worker that holds the
+  API key and keeps no conversation and no message text), then to
+  **OpenAI** to write the reply, under OpenAI's API data terms. Neither
+  stores your conversation for us; the app keeps it only on your screen
+  until you start a new chat.
+- **The random id:** the app makes a random id once, stores it in the
+  Keychain, and sends it so the relay can limit how many messages a phone
+  sends per day. It is tied to no account, no health data and no friend
+  code, because none of those exist together anywhere.
+- **Changes:** anything the coach suggests changing is a card you
+  confirm. Nothing in the app changes on its own.
+- **Turning it off:** simply do not use it. Nothing is sent unless you
+  send a message.
+
+## Sharing with a coach (optional)
+
+If you choose to share your training with a coach, the app writes one
+record to Apple's iCloud infrastructure for this app containing only
+the categories you tick: your program, upcoming sessions, recent
+sessions, every set, effort (RPE), adherence, progress, and, only if
+you turn each one on separately, last night's sleep, HRV and resting
+heart rate with the recovery band, and your notes. Recovery and notes
+are off by default.
+
+The record is encrypted on your phone with a key made from a
+ten-character coach code that only you and the person you give it to
+hold. Nobody else, including us, can read it. Your coach reads it in
+their own copy of Forge Fitness and can change nothing on your phone.
+Turning a category off rewrites the record without it. Stopping the
+share, or your coach disconnecting, deletes the record. A share can
+also be set to end on its own after twelve weeks. Your coach can
+remember or screenshot what they saw; ending the share removes it from
+Forge, not from them. Never shared this way: your body weight and
+measurements, cycle log, progress photos, medication context,
+nutrition targets, or who your friends are. Don't share, and nothing
+is ever written.
+
 ## Friends leaderboard (optional)
 
 If you choose to join the friends leaderboard, the app publishes a small
@@ -125,10 +177,11 @@ you share yourself. Don't join, and nothing is ever published.
   anyone. (The optional Oura and WHOOP connections above talk only to
   Oura or WHOOP, at your request, about your own data.)
 - **No network activity beyond the optional Oura and WHOOP connections,
-  iCloud sync, and the optional friends leaderboard.** Readings go only
-  to your phone from Oura, WHOOP or Apple. The one piece of ours on the
-  internet is the WHOOP sign-in relay described above, which holds no
-  data.
+  iCloud sync, the optional friends leaderboard, the optional coach, and
+  the optional share with a coach.**
+  Readings go only to your phone from Oura, WHOOP or Apple. The two
+  pieces of ours on the internet are the WHOOP sign-in relay and the
+  coach relay described above; neither holds your data.
 
 ## Backups and iCloud
 
