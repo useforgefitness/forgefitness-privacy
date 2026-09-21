@@ -1,6 +1,6 @@
 # Forge Fitness Privacy Policy
 
-**Effective date: September 15, 2026**
+**Effective date: September 19, 2026**
 
 Forge Fitness is built on a simple principle: **your data stays on your
 device.** The app has no servers, no accounts, and no analytics. We cannot
@@ -107,10 +107,14 @@ message:
   today's recovery band with Forge's own reasoning for it. If the coach
   looks something up, only what that lookup returns goes with it (for
   example, one exercise's last few sessions).
-- **What never goes up:** your heart-rate, HRV or sleep readings, sleep
-  stages, body weight or measurements, cycle data, medication, photos,
-  friends or friend codes, or anything about your device beyond a random
-  id (below).
+- **Only if you choose:** a photo, when you attach one to a message; and
+  your recent HRV, resting heart rate, sleep and breathing-rate readings,
+  plus your latest body weight, height, age and today's cycle phase (if
+  you track it), only while "Let the coach see my readings and body data"
+  is on (off by default). The coach can read these; it cannot change them.
+- **What never goes up:** sleep stages, tape measurements, your period
+  log itself, medication, your other photos, friends or friend codes, or
+  anything about your device beyond a random id (below).
 - **Where it goes:** to Forge's relay (a Cloudflare Worker that holds the
   API key and keeps no conversation and no message text), then to
   **OpenAI** to write the reply, under OpenAI's API data terms. Neither
