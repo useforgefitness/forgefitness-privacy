@@ -1,6 +1,6 @@
 # Forge Fitness Privacy Policy
 
-**Effective date: September 19, 2026**
+**Effective date: September 23, 2026**
 
 Forge Fitness is built on a simple principle: **your data stays on your
 device.** The app has no servers, no accounts, and no analytics. We cannot
@@ -172,14 +172,19 @@ weekly totals (sessions, volume, and PR days), your personal records
 from the last week, your all-time heaviest sets, and the top set of each
 exercise in your last few workouts.
 
-**Optionally, and only if you turn it on,** your card can also carry
-last night's sleep duration, heart-rate variability (HRV), resting
-heart rate, breathing rate, and the recovery status Forge gave you,
-each one its own switch. This sharing is off by default, only friends
-who have your code can see the values, and switching any of it off
-removes it from your card. Your workouts travel as each exercise's top
-set; every set and your effort ratings travel only if you turn those
-on. Nothing else ever joins the card: your notes, your food, and every
+**Recovery readings are shared with named friends, one at a time, and
+never on that card.** Last night's sleep duration, heart-rate
+variability (HRV), resting heart rate, breathing rate, and the recovery
+status Forge gave you can each be shared, each one its own switch for
+what is shared, and a separate switch per friend for who receives it.
+When you add a friend, Forge shows you what would be shared and offers
+the choice before the friendship is made; you can decline it there, and
+you can turn it off for any friend afterwards, at which point what they
+could see is deleted immediately. A reading is sent only to the friends
+you have chosen, in a record only that friend can read, and only when
+it is last night's. Your workouts travel as each exercise's top set;
+every set and your effort ratings travel only if you turn those on.
+Nothing else ever joins the card: your notes, your food, and every
 other health reading stay on your device.
 
 Cards are stored in Apple's iCloud infrastructure for
