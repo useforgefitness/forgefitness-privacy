@@ -1,6 +1,6 @@
 # Forge Fitness Privacy Policy
 
-**Effective date: September 28, 2026**
+**Effective date: September 29, 2026**
 
 Forge Fitness is built on a simple principle: **your data is yours.**
 There are no accounts, no analytics and no ads. Your training lives on
@@ -28,6 +28,10 @@ On your device **only**, never synced:
   and birth-control notes, and any weight-management medication you note
 - Your last few coach conversations, and the record of changes the coach
   made
+- The time zone your phone was in on each day you opened Forge, your
+  approximate location once a day if you turn that on, and the time of
+  any Airplane Mode note your own Shortcuts automation leaves, used only
+  to ask whether you're traveling (see Travel Mode)
 
 None of this is sent to us. We have no server that could receive it.
 
@@ -214,12 +218,31 @@ your training days as events to the calendars you choose. Those calendars
 (iCloud, Google or another account on your phone) store and sync the
 events like any other.
 
+## Travel Mode (optional)
+
+When your phone's time zone changes, Forge asks whether you're
+traveling, and keeps that record of time zones on this phone.
+
+If you turn on "Trips in your own time zone" (☰ menu, Settings, Noticing
+a trip), Forge also checks your **approximate** location once a day when
+you open it, to tell home from away. It never tracks you in the
+background, keeps these places on this phone only, and never sends them
+anywhere. Turning the switch off deletes them, and you can also turn
+location off for Forge in the iPhone's Settings.
+
+If you set up a Shortcuts automation for Airplane Mode, it leaves Forge a
+timestamp and nothing else. Travel Mode turns on only when you say yes.
+Workouts logged in Travel Mode are filed under "Travel" and sync with the
+rest of your log.
+
 ## Friends leaderboard (optional)
 
 If you choose to join the friends leaderboard, the app publishes a small
 "card" so friends who have your code can see it: the display name you
 pick (it does not need to be your real name), your current streak, your
-weekly totals (sessions, volume, and PR days), your personal records
+weekly totals (sessions, volume, and PR days), how many of your planned
+lifting days (and, with a running plan, runs) you have done this week,
+your personal records
 from the last week, your all-time heaviest sets, and the top set of each
 exercise in your last few workouts.
 
