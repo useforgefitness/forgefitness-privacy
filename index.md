@@ -322,6 +322,8 @@ Today screen. Deleting the app removes everything on that phone. Your
 iCloud copy stays in your own iCloud until you delete it there, from your
 iPhone's iCloud storage settings. Stopping a trainer share deletes that
 record, and turning recovery sharing off deletes what friends could see.
+Removing a friend (on their page in the Friends tab) takes them off your
+list and deletes the recovery you shared with them.
 
 ## Changes to this policy
 
