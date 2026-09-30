@@ -1,12 +1,15 @@
 # Forge Fitness Privacy Policy
 
-**Effective date: September 29, 2026**
+**Effective date: September 30, 2026**
 
 Forge Fitness is built on a simple principle: **your data is yours.**
 There are no accounts, no analytics and no ads. Your training lives on
 your phone and in your own iCloud, where we cannot see it. A few optional
 features send specific things elsewhere, only when you use them, and each
 one is described below.
+
+Forge Fitness is made by **Aitken Enterprise LLC**, a Florida limited
+liability company. "We" and "us" in this policy mean Aitken Enterprise LLC.
 
 ## What the app stores, and where
 
@@ -261,6 +264,10 @@ every set and your effort ratings travel only if you turn those on.
 Nothing else ever joins the card: your notes, your food, and every
 other health reading stay on your device.
 
+**While Forge is in beta,** a TestFlight build may turn recovery sharing on
+with all of your friends so the feature can be tested. The notes for that
+build say so.
+
 Cheers and nudges you send to a friend are small records stored the same
 way and found by your friend's code; a nudge carries the message you pick
 or write. You can stop friends nudging you in Privacy & sharing.
@@ -333,3 +340,5 @@ the effective date revised before the change takes effect.
 ## Contact
 
 Questions about privacy in Forge Fitness: **useforgefitness@gmail.com**
+
+Aitken Enterprise LLC, Florida, United States
