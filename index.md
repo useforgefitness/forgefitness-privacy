@@ -1,12 +1,13 @@
 # Forge Fitness Privacy Policy
 
-**Effective date: September 30, 2026**
+**Effective date: October 1, 2026**
 
 Forge Fitness is built on a simple principle: **your data is yours.**
-There are no accounts, no analytics and no ads. Your training lives on
-your phone and in your own iCloud, where we cannot see it. A few optional
-features send specific things elsewhere, only when you use them, and each
-one is described below.
+There are no accounts and no ads. Your training lives on your phone and
+in your own iCloud, where we cannot see it. The app checks with
+RevenueCat for Forge Pro each time it opens (see Forge Pro purchases),
+and a few optional features send specific things elsewhere, only when
+you use them. Each one is described below.
 
 Forge Fitness is made by **Aitken Enterprise LLC**, a Florida limited
 liability company. "We" and "us" in this policy mean Aitken Enterprise LLC.
@@ -238,6 +239,27 @@ timestamp and nothing else. Travel Mode turns on only when you say yes.
 Workouts logged in Travel Mode are filed under "Travel" and sync with the
 rest of your log.
 
+## Forge Pro purchases
+
+Forge Pro is sold through the App Store, and the app uses **RevenueCat**
+(RevenueCat, Inc.) to handle the purchase. So that the app knows whether
+you have Forge Pro, it checks with RevenueCat each time it opens.
+
+- **What RevenueCat receives:** a random ID made on your phone for this
+  purpose (not your name, email or Apple ID); your Forge Pro purchases,
+  trials and renewals as Apple reports them; which Forge Pro page you were
+  shown and whether you bought; and the technical details every request
+  carries: the app version, your iPhone model and iOS version, your App
+  Store country and language, and an identifier Apple gives this app on
+  your device.
+- **Never** your training, recovery, health, cycle, food or friends data.
+- **Why:** to unlock Forge Pro, to restore it on a new phone, and to
+  compare versions of the Forge Pro page (for example two prices, or two
+  headlines) by how many people start a trial, stay and pay.
+- Apple takes the payment. Neither we nor RevenueCat ever see your card.
+- RevenueCat keeps this under its own
+  [privacy policy](https://www.revenuecat.com/privacy/).
+
 ## Friends leaderboard (optional)
 
 If you choose to join the friends leaderboard, the app publishes a small
@@ -279,15 +301,19 @@ yourself. Don't join, and nothing is ever published.
 ## What we don't do
 
 - **No accounts.** There is nothing to sign up for and no login.
-- **No analytics or tracking.** The app contains no analytics SDKs, no
-  advertising identifiers, and no tracking of any kind.
+- **No tracking.** No advertising identifiers and no tracking of any
+  kind. The one thing Forge measures is the Forge Pro page itself,
+  through RevenueCat (see Forge Pro purchases): which version was shown
+  and whether it sold. Nothing about how you train.
 - **No selling, no advertising.** Your data is never sold or used for
   advertising. The only outside companies that ever receive any of it are
   the ones named above, for the feature you are using: Apple (iCloud,
   Health and speech recognition), Oura and WHOOP (your own data, at your
-  request), and OpenAI (the coach and food photos).
-- **No network activity beyond** iCloud sync and the optional Oura, WHOOP,
-  coach, food photo, friends and trainer features above. The pieces of
+  request), OpenAI (the coach and food photos), and RevenueCat (Forge Pro
+  purchases).
+- **No network activity beyond** iCloud sync, the Forge Pro check, and
+  the optional Oura, WHOOP, coach, food photo, friends and trainer
+  features above. The pieces of
   ours on the internet are three small relays (the Oura sign-in, the WHOOP
   sign-in, and the coach and food photos); none of them keeps your data.
 
