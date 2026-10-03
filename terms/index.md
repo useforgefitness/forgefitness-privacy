@@ -1,6 +1,6 @@
 # Forge Fitness Terms of Service
 
-**Effective date: September 30, 2026**
+**Effective date: October 2, 2026**
 
 These terms cover your use of the Forge Fitness iPhone app. They are
 written in plain English on purpose. By using the app, you agree to them.
@@ -18,8 +18,11 @@ numbers over time.
 ## What Forge Fitness is not
 
 **The app is not a doctor, a physiotherapist, or a personal trainer, and
-nothing in it is medical advice.** That includes the in-app coach, which
-answers from your own numbers and general training knowledge.
+nothing in it is medical advice.** That includes the in-app coach, whose
+replies are written by an AI model from your own numbers and general
+training knowledge. AI replies can be wrong or incomplete, so check
+anything that matters before you act on it. Food photo estimates are AI
+guesses, not measurements.
 
 The app suggests training targets and describes how your recovery relates
 to your training. Those suggestions are calculated from numbers you
@@ -68,6 +71,11 @@ You can stop sharing at any time in Privacy & sharing, in the ☰ menu.
 Do not use a display name, or post content, that identifies someone else
 or that you would not want another user to see.
 
+You can remove anyone from your list at any time, which also stops their
+cheers and nudges reaching you, and report them from their page in the
+Friends tab. We review reports and may remove a card, a name or a person
+from the leaderboard.
+
 ## Connected services
 
 You can optionally connect Apple Health, an Oura Ring or a WHOOP. These
@@ -91,29 +99,35 @@ terms and the Privacy Policy describe so that a feature can be tested, for
 example by sharing recovery with your friends by default. The notes for
 each build say what is different.
 
-## Paid features
+## Paid features (Forge Pro)
 
-Logging is free. Some features may require a paid subscription.
-
-If and when paid tiers go live:
+Logging is free. Some features need **Forge Pro**, sold through the App
+Store. The price and what you get are shown in the app before you buy.
 
 - Purchases are handled by **Apple**, not by us. We never see your payment
   details.
-- Subscriptions renew automatically until you cancel. Cancel through your
-  Apple ID subscription settings, at least 24 hours before the renewal
+- Subscriptions renew automatically until you cancel. Cancel in the
+  iPhone's Settings (your name, then Subscriptions), or from Forge Pro in
+  the app (Manage subscription), at least 24 hours before the renewal
   date.
-- Refunds are handled by Apple under their policies. We cannot issue them.
+- A free trial, when one is offered, becomes a paid subscription when it
+  ends unless you cancel at least 24 hours before. Forge can remind you
+  before it ends if you allow notifications.
+- Refunds are handled by Apple under its policies; you can ask for one at
+  [reportaproblem.apple.com](https://reportaproblem.apple.com/). We cannot
+  issue them.
 - Prices may change. You will be told before a change affects a renewal.
 - Cancelling stops future billing. It does not delete your training data,
   which stays on your device.
+- While Forge is in beta, Forge Pro features may be free for testers.
 
 ## Acceptable use
 
 Please do not:
 
 - Reverse engineer, decompile, or tamper with the app.
-- Use it to harass another user, or to submit content that is unlawful or
-  that infringes someone else's rights.
+- Use it to harass another user, or to send or post slurs, sexual content,
+  threats, or anything unlawful or that infringes someone else's rights.
 - Attempt to access another person's data, or interfere with the services
   the app depends on.
 
