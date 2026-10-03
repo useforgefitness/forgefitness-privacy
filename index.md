@@ -1,13 +1,14 @@
 # Forge Fitness Privacy Policy
 
-**Effective date: October 1, 2026**
+**Effective date: October 2, 2026**
 
 Forge Fitness is built on a simple principle: **your data is yours.**
 There are no accounts and no ads. Your training lives on your phone and
 in your own iCloud, where we cannot see it. The app checks with
 RevenueCat for Forge Pro each time it opens (see Forge Pro purchases),
 and a few optional features send specific things elsewhere, only when
-you use them. Each one is described below.
+you use them. Each one is described below. Two of them use AI: the coach
+and food photos, both answered by OpenAI's AI models.
 
 Forge Fitness is made by **Aitken Enterprise LLC**, a Florida limited
 liability company. "We" and "us" in this policy mean Aitken Enterprise LLC.
@@ -157,8 +158,13 @@ message:
   anything about your device beyond a random id (below).
 - **Where it goes:** to Forge's relay (a Cloudflare Worker that holds the
   API key and keeps no conversation and no message text), then to
-  **OpenAI** to write the reply, under OpenAI's API data terms. Neither
-  stores your conversation for us.
+  **OpenAI**, whose AI model writes the reply. Under OpenAI's API terms it
+  does not use what we send to train its models, and it keeps it for no
+  more than 30 days, only to check for abuse, unless the law requires
+  longer. Neither stores your conversation for us.
+- **If you mention hurting yourself:** the app shows you how to reach the
+  988 Suicide & Crisis Lifeline. That check happens on your phone and
+  sends nothing extra anywhere.
 - **On your phone:** your last few exchanges stay on this phone and go
   with your next question, so follow-ups make sense. Clear them any time
   from the chat's menu (Forget earlier conversations).
@@ -198,8 +204,10 @@ nothing is ever written.
 ## Food photos (optional)
 
 If you choose to log a meal from a photo, the photo is sent once, through
-the same relay the coach uses, to **OpenAI**, which estimates what is on
-the plate. The photo is not stored by us. What comes back is an estimate
+the same relay the coach uses, to **OpenAI**, whose AI model estimates
+what is on the plate. The photo is not stored by us, and OpenAI handles
+it under the same API terms as the coach (not used for training, kept no
+more than 30 days to check for abuse). What comes back is an estimate
 of the foods, calories, protein, carbohydrates and fat, which you can
 change before saving. Only the numbers you save are kept, on your device
 and in your own iCloud with the rest of your log. Food data is never
@@ -292,11 +300,31 @@ build say so.
 
 Cheers and nudges you send to a friend are small records stored the same
 way and found by your friend's code; a nudge carries the message you pick
-or write. You can stop friends nudging you in Privacy & sharing.
+or write. You can stop friends nudging you in Privacy & sharing. Only
+people on your list reach you: removing a friend also stops their cheers
+and nudges. To report someone, tap Report on their page in the Friends
+tab; it drafts an email to us with their friend code, and we can remove a
+card that breaks our Terms. Names and written nudges containing slurs,
+sexual words or threats are not sent.
 
 Cards are stored in Apple's iCloud infrastructure for this app and are
 findable only by your six-character friend code, which you share
 yourself. Don't join, and nothing is ever published.
+
+## Sharing a workout card
+
+When you share a workout or a record, the card is made on your phone and
+goes only where you send it (Photos, Messages, or another app such as
+Snapchat), under that app's own terms. Nothing is sent until you choose
+where.
+
+## Our websites
+
+useforgefitness.com and this policy's site set no cookies and run no
+analytics, tracking or ads. They are hosted by Cloudflare and GitHub,
+which, like any web host, receive your IP address to deliver the page,
+and the main site loads its typeface from Google Fonts, so Google
+receives your IP address too.
 
 ## What we don't do
 
@@ -346,7 +374,9 @@ and have no ability to.
 ## Children
 
 Forge Fitness is a fitness tool intended for teens and adults and is not
-directed at children under 13.
+directed at children under 13. We don't knowingly collect information
+from children under 13. If you believe a child under 13 has joined the
+friends leaderboard, email us and we will remove their card.
 
 ## Deleting your data
 
@@ -357,6 +387,12 @@ iPhone's iCloud storage settings. Stopping a trainer share deletes that
 record, and turning recovery sharing off deletes what friends could see.
 Removing a friend (on their page in the Friends tab) takes them off your
 list and deletes the recovery you shared with them.
+
+Your friend card, and any cheers and nudges you sent, stay in Forge's
+shared database after you delete the app, because they are not stored on
+your phone. To have them deleted, email **useforgefitness@gmail.com** with
+your friend code (shown on the Friends tab) and we will delete them within
+30 days.
 
 ## Changes to this policy
 
